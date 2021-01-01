@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/Index/hero.css">
     <link rel="stylesheet" href="CSS/Index/grid.css">
     <link rel="stylesheet" href="CSS/Index/project.css">
+    <link rel="stylesheet" href="CSS/Open Source/openSourceNav.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
@@ -25,18 +26,36 @@
 <body>
     <div id="nav-placeholder"></div>
 
-    <div class="heroImage" style="background-image: url(Images/wysaHero.png);">
-        <div class="centeredText" style="top: 76px;">
-            <h1 class="heroProjectHeading">Wysa App</h1>
-            <h1 class="heroProjectSubHeading">A cute app that lets you talk to a Penguin, an Emotionally Intelligent
-                chatbot which uses AI to react to the Emotions you Express.</h1>
-            <a href="https://apps.apple.com/in/app/wysa-mental-health-support/id1166585565" target="_blank">
-                <img src="Images/availableonappstore.png" height="64px">
+    <div class="flexibleOpenSourceNavContainer">
+        <div class="flexibleOpenSourceNavContainerHorizontal">
+            <a class="flexibleOpenSourceNavContainerVertical" href="wysa.html">
+                <img src="Images/paytmmoney.png" alt="Paytm Money Icon">
+                <p>Paytm Money</p>
+            </a>
+
+            <a class="flexibleOpenSourceNavContainerVertical" href="wysa.html">
+                <img src="Images/wysa icon.png" alt="Wysa Icon">
+                <p id="activeLinkOpenSource">Touchkin</p>
             </a>
         </div>
     </div>
 
-    <div class="gridContainer">
+    <div class="heroImage" style="background-image: url(Images/wysaHero.png);top: 50px;">
+        <div class="centeredText" style="top: 76px;">
+            <h1 class="heroProjectHeading">Wysa App</h1>
+            <h1 class="heroProjectSubHeading">A cute app that lets you talk to a Penguin, an Emotionally Intelligent
+                chatbot which uses AI to react to the Emotions you Express.</h1>
+
+            <a href="https://www.wysa.io/" target="_blank">
+                <img src="Images/website.png" width="200px">
+            </a>
+            <a href="https://apps.apple.com/in/app/wysa-mental-health-support/id1166585565" target="_blank">
+                <img src="Images/availableonappstore.png" height="64px" style="margin-left: 8px;">
+            </a>
+        </div>
+    </div>
+
+    <div class="gridContainer" style="top: 50px;">
         <div class="gridImage" style="background-image: url(Images/wysaFeatures.png);">
             <div class="textStartingFromCentre">
                 <h1 class="heroProjectHeading">Key Features</h1>
@@ -60,7 +79,7 @@
         </div>
     </div>
 
-    <div class="gridContainer" style="background-color: white;">
+    <div class="gridContainer" style="background-color: white;top: 50px;">
         <div class="gridImage" style="background-image: url(Images/wysaTechnogies.png);">
             <div class="textStartingFromCentre">
                 <h1 class="heroProjectHeading" style="color: black;">Technologies</h1>
@@ -103,7 +122,8 @@
 
                 <div class="flexibleProjectContainerHorizontal">
                     <img src="Images/message.png" alt="Message Icon">
-                    <h1 class="projectSubHeading">Optimized Chat performance by CollectionView, Lazy Loading & Prefetching</h1>
+                    <h1 class="projectSubHeading">Optimized Chat performance by CollectionView, Lazy Loading &
+                        Prefetching</h1>
                 </div>
 
                 <div class="flexibleProjectContainerHorizontal">

@@ -4,6 +4,7 @@
     grid-template-columns: auto auto;
     grid-column-gap: 12px;
     background-color: rgba(240, 240, 240, 1.0);
+    position: relative;
 }
 
 .gridImage {
