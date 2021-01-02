@@ -1,17 +1,17 @@
 .heroProjectHeading {
-    font-size: 44px;
-    font-weight: 600;
-    color: White;
-}
-
-.heroProjectHeading2 {
     font-size: 32px;
     font-weight: 600;
     color: White;
 }
 
-.heroProjectSubHeading {
+.heroProjectHeading2 {
     font-size: 28px;
+    font-weight: 500;
+    color: White;
+}
+
+.heroProjectSubHeading {
+    font-size: 24px;
     font-weight: 400;
     line-height: 1.6;
     color: White;
@@ -26,7 +26,7 @@
 }
 
 .projectSubHeading {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 400;
     color: White;
 }
@@ -38,8 +38,8 @@
 }
 
 .flexibleProjectContainerHorizontal img {
-    width: 36px;
-    height: 36px;
+    width: 25px;
+    height: 25px;
 }
 
 .flexibleProjectContainerHorizontal h1 {
