@@ -21,8 +21,8 @@
     position: absolute;
     top: 60px;
     left: 40%;
-    right: 16px;
-    bottom: 16px;
+    right: 8px;
+    bottom: 8px;
 }
 
 .projectSubHeading {
@@ -38,8 +38,8 @@
 }
 
 .flexibleProjectContainerHorizontal img {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .flexibleProjectContainerHorizontal h1 {
