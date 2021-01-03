@@ -31,6 +31,21 @@
     color: White;
 }
 
+.heroProjectHeading3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: White;
+    margin: 8px;
+}
+
+.projectSubHeading2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin: 8px;
+    margin-left: 0px;
+}
+
 .flexibleProjectContainerHorizontal {
     display: flex;
     flex-direction: row;
