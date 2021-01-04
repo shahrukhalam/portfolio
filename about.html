@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shahrukh Alam's Portfolio</title>
+    <meta charset="UTF-8" name="author" content="Shahrukh Alam">
+
+    <link rel="stylesheet" href="CSS/Common/body.css">
+    <link rel="stylesheet" href="CSS/Common/nav.css">
+    <link rel="stylesheet" href="CSS/Index/hero.css">
+    <link rel="stylesheet" href="CSS/Index/grid.css">
+    <link rel="stylesheet" href="CSS/Index/project.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#nav-placeholder').load("HTML/nav.html", function (response, status, xhr) {
+                $('#navAbout').removeClass("inactiveLink");
+                $('#navAbout').addClass("activeLink");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="nav-placeholder"></div>
+
+    <div class="heroImage" style="background-image: url(Images/friends1.png);top: 50px;">
+        <div class="centeredText" style="top: 16px;">
+            <h1 class="heroProjectSubHeadingAbout">When I am not working, I love chilling out with friends</h1>
+        </div>
+    </div>
+
+    <div class="gridContainerAbout" style="top: 50px;">
+        <div class="gridImageAbout" style="background-image: url(Images/friends2.png);"></div>
+        <div class="gridImageAbout" style="background-image: url(Images/friends3.png);"></div>
+    </div>
+
+    <div class="heroImage" style="background-image: url(Images/trek1.png);top: 58px;">
+        <div class="centeredText" style="top: 16px;">
+            <h1 class="heroProjectSubHeadingAbout">I love Travelling & Trekking. These are from my last 4 day ice-trek
+                of 60 Kms with a lowest temp of -28°C on Zanskar river, Ladakh, India.</h1>
+        </div>
+    </div>
+
+    <div class="gridContainerAbout" style="top: 58px;">
+        <div class="gridImageAbout" style="background-image: url(Images/trek2.png);"></div>
+        <div class="gridImageAbout" style="background-image: url(Images/trek3.png);"></div>
+    </div>
+
+    <div class="heroImage" style="background-image: url(Images/photography1.png);top: 66px;">
+        <div class="centeredText" style="top: 16px;">
+            <h1 class="heroProjectSubHeadingAbout">I aspire to be a Photographer. These are some of my nube shots.</h1>
+        </div>
+    </div>
+
+    <div class="gridContainerAbout" style="top: 66px;">
+        <div class="gridImageAbout" style="background-image: url(Images/photography2.png);"></div>
+        <div class="gridImageAbout" style="background-image: url(Images/photography3.png);"></div>
+    </div>
+</body>
+
+</html>
