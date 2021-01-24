@@ -6,9 +6,10 @@
     <meta charset="UTF-8" name="author" content="Shahrukh Alam">
     <!-- Icon -->
     <link rel="icon" type="image/png" href="Images/favicon.png">
-    
+
     <link rel="stylesheet" href="CSS/Common/body.css">
     <link rel="stylesheet" href="CSS/Common/nav.css">
+    <link rel="stylesheet" href="CSS/Common/footer.css">
     <link rel="stylesheet" href="CSS/Index/hero.css">
     <link rel="stylesheet" href="CSS/Index/grid.css">
     <link rel="stylesheet" href="CSS/Index/project.css">
@@ -20,6 +21,8 @@
                 $('#navAbout').removeClass("inactiveLink");
                 $('#navAbout').addClass("activeLink");
             });
+
+            $('#footer-placeholder').load("HTML/footer.html")
         });
     </script>
 </head>
@@ -60,6 +63,8 @@
         <div class="gridImageAbout" style="background-image: url(Images/photography2.png);"></div>
         <div class="gridImageAbout" style="background-image: url(Images/photography3.png);"></div>
     </div>
+
+    <div id="footer-placeholder"></div>
 </body>
 
 </html>

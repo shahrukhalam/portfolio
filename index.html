@@ -32,6 +32,8 @@
                 $('#navHome').removeClass("inactiveLink");
                 $('#navHome').addClass("activeLink");
             });
+
+            $('#footer-placeholder').load("HTML/footer.html")
         });
     </script>
 </head>
@@ -123,50 +125,7 @@
         </div>
     </div>
 
-    <div class="flexibleFooterContainerHorizontal" style="top: 50px;">
-        <div class="flexibleFooterCreditsContainerVertical">
-            <img src="Images/HTMLDSL.png" width="100px">
-            <p class="footerCreditsTitle">Powered by <a class="footerCreditsLink"
-                    href="https://github.com/shahrukhalam/HTMLDSL" target="_blank">HTMLDSL</a></p>
-            <p class="footerCreditsSubtitle">Swift DSL for HTML. Generates HTML with SwiftUI style syntax in pure Swift.
-            </p>
-        </div>
-
-        <div class="flexibleFooterCreditsContainerVertical">
-            <img src="Images/apple.png" width="100px">
-            <p class="footerCreditsTitle">Inspired by <a class="footerCreditsLink" href="https://developer.apple.com/"
-                    target="_blank">Apple</a></p>
-            <p class="footerCreditsSubtitle">The Design, Look & Feel is inspired from Apple Developer website.</p>
-        </div>
-    </div>
-
-    <div class="flexibleFooterContainerHorizontal" style="top: 50px;">
-        <hr class="solid" style="width: 66%;">
-    </div>
-
-    <div class="flexibleFooterContainerHorizontal" style="top: 50px;">
-        <div class="flexibleFooterContainerVertical">
-            <a class="footerTitle" href="index.html">Home</a>
-        </div>
-
-        <div class="flexibleFooterContainerVertical">
-            <a class="footerTitle" href="paytmmoney.html">Clients</a>
-            <a class="footerSubtitle" href="paytmmoney.html">Paytm Money</a>
-            <a class="footerSubtitle" href="gojek.html">Gojek</a>
-            <a class="footerSubtitle" href="thesun.html">NTS</a>
-            <a class="footerSubtitle" href="wysa.html">Touchkin</a>
-        </div>
-
-        <div class="flexibleFooterContainerVertical">
-            <a class="footerTitle" href="articles.html">Open Source</a>
-            <a class="footerSubtitle" href="articles.html">Articles</a>
-            <a class="footerSubtitle" href="projects.html">Projects</a>
-        </div>
-
-        <div class="flexibleFooterContainerVertical">
-            <a class="footerTitle" href="about.html">About</a>
-        </div>
-    </div>
+    <div id="footer-placeholder"></div>
 </body>
 
 </html>

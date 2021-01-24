@@ -6,9 +6,10 @@
     <meta charset="UTF-8" name="author" content="Shahrukh Alam">
     <!-- Icon -->
     <link rel="icon" type="image/png" href="Images/favicon.png">
-    
+
     <link rel="stylesheet" href="CSS/Common/body.css">
     <link rel="stylesheet" href="CSS/Common/nav.css">
+    <link rel="stylesheet" href="CSS/Common/footer.css">
     <link rel="stylesheet" href="CSS/Index/hero.css">
     <link rel="stylesheet" href="CSS/Index/grid.css">
     <link rel="stylesheet" href="CSS/Index/project.css">
@@ -21,6 +22,8 @@
                 $('#navClients').removeClass("inactiveLink");
                 $('#navClients').addClass("activeLink");
             });
+
+            $('#footer-placeholder').load("HTML/footer.html")
 
             $('#clients-nav-placeholder').load("HTML/clientsNav.html", function (response, status, xhr) {
                 $('#Touchkin').attr('id', 'activeLinkOpenSource');
@@ -147,6 +150,8 @@
                 Copyright © Wysa Ltd. All rights reserved.</p>
         </div>
     </div>
+
+    <div id="footer-placeholder"></div>
 </body>
 
 </html>

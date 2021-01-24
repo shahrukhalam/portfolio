@@ -6,9 +6,10 @@
     <meta charset="UTF-8" name="author" content="Shahrukh Alam">
     <!-- Icon -->
     <link rel="icon" type="image/png" href="Images/favicon.png">
-    
+
     <link rel="stylesheet" href="CSS/Common/body.css">
     <link rel="stylesheet" href="CSS/Common/nav.css">
+    <link rel="stylesheet" href="CSS/Common/footer.css">
     <link rel="stylesheet" href="CSS/Open Source/openSourceNav.css">
     <link rel="stylesheet" href="CSS/Open Source/articles.css">
 
@@ -19,6 +20,8 @@
                 $('#navOpenSource').removeClass("inactiveLink");
                 $('#navOpenSource').addClass("activeLink");
             });
+
+            $('#footer-placeholder').load("HTML/footer.html")
         });
     </script>
 </head>
@@ -95,6 +98,8 @@
 
         <div style="padding-bottom: 16px;"></div>
     </div>
+
+    <div id="footer-placeholder"></div>
 </body>
 
 </html>
